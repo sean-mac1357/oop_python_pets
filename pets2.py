@@ -16,8 +16,6 @@ class Pet:
         self.fullness -= self.hunger
         self.happiness -= self.mopiness
 
-class CuddlyPet(Pet):
-    pass
 
 
 benji = Pet("Benji", 50, 20, 20, 1)
